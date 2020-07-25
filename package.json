@@ -1,0 +1,28 @@
+{
+  "name": "documents",
+  "version": "1.0.0",
+  "description": "CSV Insertion",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarathdurisala/insert_mongodb_data_into_csv.git"
+  },
+  "keywords": [
+    "insert_into_csv",
+    "mongo_db"
+  ],
+  "author": "Sarath Durisala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sarathdurisala/insert_mongodb_data_into_csv/issues"
+  },
+  "homepage": "https://github.com/sarathdurisala/insert_mongodb_data_into_csv#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9",
+    "nodemon": "^2.0.4"
+  }
+}
